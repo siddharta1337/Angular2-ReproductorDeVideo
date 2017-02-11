@@ -13,11 +13,15 @@ Para este proyecto necesitarás:
 ##instalación
 Copia este repositorio en la raíz de carpeta pública de tu servidor y actualiza los datos de conección a la base de datos.
 
+
+
 Descripción de carpetas
-- *API* contiene los archivos PHP que devuelven información de videos.
-- *API/uploads* almacena los archivos multimedia de la aplicación.
-- *comun* tiene la conección a la base de datos
-- *angular* contiene el código fuente del proyecto Angular 2
+- *codigo-fuente/angular* contiene el código fuente del proyecto Angular 2
+- *codigo-fuente/API* contiene los archivos PHP que devuelven información de videos.
+- *codigo-fuente/API/uploads* almacena los archivos multimedia de la aplicación.
+- *codigo-fuente/comun* tiene la conección a la base de datos
+- *base-de-datos/* tiene el archivo para importar la base de datos
+
 
 ## Más información
 
