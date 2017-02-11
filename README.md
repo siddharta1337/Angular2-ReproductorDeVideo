@@ -5,13 +5,13 @@ Aprende en este curso a crear un sitio web de videos con características avanza
 ## Herramientas necesarias
 
 Para este proyecto necesitarás:
-- Un editor de codigo (Sublime Text, Visual Studio Code o Atom son recomendados)
+- Un editor de código (Sublime Text, Visual Studio Code o Atom son recomendados)
 - Acceso a la terminal de sistema
 - Un servidor apache ( Mamp o Xampp recomendados)
 - NodeJS y TypeScript
 
-##instalación
-Copia este repositorio en la raíz de carpeta pública de tu servidor y actualiza los datos de conección a la base de datos.
+## Instalación
+Copia este repositorio en la raíz de carpeta pública de tu servidor y actualiza los datos de conexión a la base de datos.
 
 
 
