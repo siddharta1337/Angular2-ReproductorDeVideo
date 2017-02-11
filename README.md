@@ -10,6 +10,15 @@ Para este proyecto necesitarás:
 - Un servidor apache ( Mamp o Xampp recomendados)
 - NodeJS y TypeScript
 
+##instalación
+Copia este repositorio en la raíz de carpeta pública de tu servidor y actualiza los datos de conección a la base de datos.
+
+Descripción de carpetas
+- *API* contiene los archivos PHP que devuelven información de videos.
+- *API/uploads* almacena los archivos multimedia de la aplicación.
+- *comun* tiene la conección a la base de datos
+- *angular* contiene el código fuente del proyecto Angular 2
+
 ## Más información
 
 Puedes contactarme en mis redes sociales
