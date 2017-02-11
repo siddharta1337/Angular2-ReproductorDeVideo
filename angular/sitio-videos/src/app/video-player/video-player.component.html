@@ -1,0 +1,52 @@
+<div class="container" >
+
+ <div *ngIf="videoInfo" > 
+    <div class="videoContainer">
+
+      <video #videoPlayer (loadedmetadata)="onMetadata($event, videoPlayer)" (timeupdate)="onTimeUpdate($event, videoPlayer)" >
+        <source src="http://localhost/API/uploads/{{videoInfo.video_src}}">
+      </video>
+
+      <div class="progreso">
+        <div class="barra"  [ngStyle]="{'width': progreso + '%'}"    ></div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="controles ">
+        <div class="col-sm-1 pull-left text-center" (click)=" reproducirVideo()" >
+
+          <i class="fa fa-play"></i>
+        </div>
+
+        <div class="col-sm-1 pull-left text-center" (click)=" pausarVideo()" >
+
+          <i class="fa fa-pause"></i>
+        </div>
+
+    
+
+        <div  class="col-sm-1 pull-left text-center" (click)=" detenerVideo()" >
+
+          <i class="fa fa-stop"></i>
+        </div>
+
+      </div>
+     
+    </div>
+
+    <div class="detalles">
+        <h1> {{videoInfo.titulo}}  <div class="tiempo">
+           ( <span  *ngIf="posicion"> {{posicion}} /</span>  {{duracion }} )
+         </div>  </h1> 
+         
+        <p> {{videoInfo.descripcion}} </p>
+    </div>
+
+ </div>
+
+ 
+
+
+</div>
