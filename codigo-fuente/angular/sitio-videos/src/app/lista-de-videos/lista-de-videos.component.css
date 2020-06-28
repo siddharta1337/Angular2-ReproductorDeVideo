@@ -1,26 +1,26 @@
-.componente-lista{
-    margin: 30px auto;
-color: #545454;
+.componente-lista {
+  margin: 30px auto;
+  color: #545454;
 }
 
-.componente-lista .panel{
-        min-height: 160px;
-            padding: 0;
+.componente-lista .panel {
+  min-height: 160px;
+  padding: 0;
 }
 
-.componente-lista .panel a{
-        display: block;
-        min-height: 161px;
-    overflow: visible;
-    text-decoration: none;
+.componente-lista .panel a {
+  display: block;
+  min-height: 161px;
+  overflow: visible;
+  text-decoration: none;
 }
 
-.componente-lista .panel a:hover{
+.componente-lista .panel a:hover {
 
-    background:#F6F6F6;
+  background: #F6F6F6;
 }
 
-.componente-lista img{
-        max-height: 125px;
-            max-width: 175px;
+.componente-lista img {
+  max-height: 125px;
+  max-width: 175px;
 }

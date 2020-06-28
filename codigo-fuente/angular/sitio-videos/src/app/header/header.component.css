@@ -1,26 +1,22 @@
 .navbar {
-    background-color:  #5cb85c;
-    border-color: #5cb85c;
-        border-radius: 0px;
-     
+  background-color:  #5cb85c;
+  border-color: #5cb85c;
+      border-radius: 0px;
+
 }
 .navbar a{
-    color:#fff;
+  color:#fff;
 }
 .navbar a.active{
-    background: red;
+  background: red;
 }
 
 .navbar ul a:hover{
-    color:green;
+  color:green;
 }
 
 
 .navbar i{
-    color: #ffe626;
+  color: #ffe626;
 text-shadow: none;
 }
-
-
-
- 

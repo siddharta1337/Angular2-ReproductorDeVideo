@@ -4,7 +4,7 @@
 
     <a [routerLink]="['/video-player', video.id ]" >
       <div class="col-sm-2 ">
-        <img src="{{rutaServer}}{{video.imagen_src}}" alt="{{video.titulo}}" class="thumbnail">
+        <img [src]="rutaServer+ video.imagen_src" alt="{{video.titulo}}" >
       </div>
 
       <div class="detalles col-sm-10 ">
@@ -18,3 +18,4 @@
 
 
 </div>
+

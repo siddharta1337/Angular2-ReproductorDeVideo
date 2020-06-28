@@ -1,6 +1,6 @@
 <div class="container" >
 
- <div *ngIf="videoInfo" > 
+  <div *ngIf="videoInfo" >
     <div class="videoContainer">
 
       <video #videoPlayer (loadedmetadata)="onMetadata($event, videoPlayer)" (timeupdate)="onTimeUpdate($event, videoPlayer)" >
@@ -25,7 +25,7 @@
           <i class="fa fa-pause"></i>
         </div>
 
-    
+
 
         <div  class="col-sm-1 pull-left text-center" (click)=" detenerVideo()" >
 
@@ -33,20 +33,20 @@
         </div>
 
       </div>
-     
+
     </div>
 
     <div class="detalles">
-        <h1> {{videoInfo.titulo}}  <div class="tiempo">
-           ( <span  *ngIf="posicion"> {{posicion}} /</span>  {{duracion }} )
-         </div>  </h1> 
-         
-        <p> {{videoInfo.descripcion}} </p>
+      <h1> {{videoInfo.titulo}}  <div class="tiempo">
+        ( <span  *ngIf="posicion"> {{posicion}} /</span>  {{duracion }} )
+      </div>  </h1>
+
+      <p> {{videoInfo.descripcion}} </p>
     </div>
 
- </div>
+  </div>
 
- 
+
 
 
 </div>
