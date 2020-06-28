@@ -1,6 +1,6 @@
 # Angular práctico: Sitio de consumo de videos
 
-Aprende en este curso a crear un sitio web de videos con características avanzadas, compatible con dispositivos móviles y de fácil indexación en motores de búsqueda. Siguiendo paso a paso las lecciones verás cómo instalar el servidor local, cómo desarrollar el backend y cómo integrar Angular 2. Al final del workshop tendrás además el código fuente para utilizar como base para tus proyectos personales utilizando Angular 2 de un sitio funcional en el que podrás ver cómo cargar información de servicios web externos, crear listas dinámicas y cómo crear un reproductor personalizado de video HTML5 con Angular 2.
+Aprende en este curso a crear un sitio web de videos con características avanzadas, compatible con dispositivos móviles y de fácil indexación en motores de búsqueda. Siguiendo paso a paso las lecciones verás cómo instalar el servidor local, cómo desarrollar el backend y cómo integrar Angular. Al final del workshop tendrás además el código fuente para utilizar como base para tus proyectos personales utilizando Angular de un sitio funcional en el que podrás ver cómo cargar información de servicios web externos, crear listas dinámicas y cómo crear un reproductor personalizado de video HTML5 con Angular.
 
 ## Herramientas necesarias
 
@@ -16,10 +16,10 @@ Copia este repositorio en la raíz de carpeta pública de tu servidor y actualiz
 
 
 Descripción de carpetas
-- *codigo-fuente/angular* contiene el código fuente del proyecto Angular 2
+- *codigo-fuente/angular* contiene el código fuente del proyecto Angular
 - *codigo-fuente/API* contiene los archivos PHP que devuelven información de videos.
 - *codigo-fuente/API/uploads* almacena los archivos multimedia de la aplicación.
-- *codigo-fuente/comun* tiene la conección a la base de datos
+- *codigo-fuente/comun* tiene la conexión a la base de datos, recuerda actualizar este archivo con el usuario y password de tu propia base de datos.
 - *base-de-datos/* tiene el archivo para importar la base de datos
 
 
@@ -27,5 +27,10 @@ Descripción de carpetas
 
 Puedes contactarme en mis redes sociales
 
-Facebook: https://www.facebook.com/carlos.solis1337
-Youtube: www.youtube.com/user/RevolucionMobi?
+* Facebook: [https://www.facebook.com/carlos.solis1337][1]
+* Youtube: [https://www.youtube.com/user/RevolucionMobi][2]
+* LinkedIn: [https://www.linkedin.com/learning/instructors/carlos-solis][3]
+
+[1]:	https://www.facebook.com/carlos.solis1337
+[2]:	https://www.youtube.com/user/RevolucionMobi
+[3]:	https://www.linkedin.com/learning/instructors/carlos-solis
